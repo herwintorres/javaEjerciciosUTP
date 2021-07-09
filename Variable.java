@@ -37,6 +37,8 @@ public class Variable {
         System.out.println(Long.MAX_VALUE);
         //tipos primitivos de tipoflotante: float y double
         float numFloat = 3.4028235E38F;
+        final int numeroConstante = 67; //declarar una constante
+        System.out.println(numeroConstante);
         System.out.println("valor minimo de tipo float: "+Float.MIN_VALUE);
         System.out.println("valor maximo de tipo float: "+Float.MAX_VALUE);
         System.out.println("valor minimo de tipo double: "+Double.MIN_VALUE);
